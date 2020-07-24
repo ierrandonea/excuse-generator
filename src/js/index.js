@@ -7,7 +7,7 @@ window.onload = () => {
   document.querySelector("#buttonEx").addEventListener("click", () => {
     document.querySelector("#the-excuse").innerHTML = generateExcuse();
   });
-  console.log("Coding this using Gitpod has been awful...");
+  console.log("ok");
 };
 
 let generateExcuse = () => {
